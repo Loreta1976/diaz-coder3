@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+/* hero seccion */
+
+.hero {
+    height: 96vh;
+    background-image: url(../assets/img/taza-flores-celestes.jpg);
+    background-position: center;
+    background-repeat: n;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero__texto {
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.473);
+    padding: 32px;
+    border-radius: 20px;
+}
+
+.hero__texto h1 {
+    font-size: 3rem;
+
+}
+
+.hero__texto h2 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+/* header */
+
+.header1 {
+
+    background-color: rgb(29, 244, 173);
+    border-color: blue;
+}
+
+/* seccion contenedor */
+
+
+
+@media (min-width:768px) {
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        flex-direction: row;
+        gap: 30px;
+
+    }
+}
+
+
+.caja {
+
+    width: 200px;
+    height: 300px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 20px;
+
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+
+.h3 {
+    font-size: 8rem;
+}
+
+/*ubicacion */
+
+
+.titulo__ubicacion {
+
+    padding: 50px;
+    background-color: blueviolet;
+    width: 98vw;
+    text-align: center;
+
+}
+
+/* fooster */
+
+.footer {
+    padding: 20px;
+    background-color: rgb(138, 42, 165);
+    width: 98vw;
+
+
+}
+
+.horario__atencion {
+    padding: 30px;
+    text-align: center;
+
+}
+
+.ubicacion__mapa {
+    padding-left: 30px;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+/*redes sociales*/
+
+.redes-sociales {
+
+    padding: 50px;
+    background-color: blueviolet;
+    width: 98vw;
+    text-align: center;
+
+}
+
+
+
+@media (min-width: 768px) {
+    .main-contacto {
+
+        display: grid;
+
+        grid-template-columns: 80% 20%;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "titulo__ubicacion titulo__ubicacion"
+            "horario__atencion horario__atencion"
+            "ubicacion__mapa redes__titulos"
+        ;
+        padding: 20px;
+
+
+    }
+
+}
+
+/* tarjetas de footer*/
+
+.card {
+
+    background-color: aquamarine;
+    align-content: center;
+    text-align: center;
+
+}
+
+.boton-servicio {
+
+    text-align: end;
+    background-color: rgba(137, 43, 226, 0.83);
+}
