@@ -1,0 +1,66 @@
+.contenedor-nosotros {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: #b074a8;
+    
+}
+
+.titulo-nosotros {
+    font-size: 3rem;
+align-items: center;
+text-align: center;
+}
+
+.imagen__cupchoco {
+
+    width: 50vh;
+    border-radius: 20px;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.imagen__oreo {
+    width: 50vh;
+    border-radius: 20px;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.imagen__sara {
+
+    width: 50vh;
+    border-radius: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imagen__frutas {
+    width: 50vh;
+    border-radius: 20px;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+@media (min-width: 768px) {
+
+    .contenedor-nosotros {
+        display: grid;
+grid-template-columns: repeat(2,45%);
+grid-template-rows: 45 vh repeat(2,45vh);
+justify-content: center;
+background-color: aqua;
+    }
+
+
+
+}
+
+

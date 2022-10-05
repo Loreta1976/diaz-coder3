@@ -1,0 +1,61 @@
+.card {
+
+    background-color: aquamarine;
+    align-content: center;
+    text-align: center;
+
+}
+
+.boton-servicio {
+
+    text-align: end;
+    background-color: rgba(137, 43, 226, 0.83);
+}
+
+header {
+.header1 {
+
+    font-size: 3rem;
+    border-color: red;
+    padding: 15px;
+   
+}
+}
+.redes-sociales {
+
+    padding: 50px;
+    background-color: blueviolet;
+    width: 98vw;
+    text-align: center;
+
+}
+@media (min-width: 768px) {
+    .main-contacto {
+
+        display: grid;
+
+        grid-template-columns: 80% 20%;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "titulo__ubicacion titulo__ubicacion"
+            "horario__atencion horario__atencion"
+            "ubicacion__mapa redes__titulos"
+        ;
+        padding: 20px;
+
+
+    }
+}
+.card {
+
+    background-color: aquamarine;
+    align-content: center;
+    text-align: center;
+
+}
+
+.boton-servicio {
+
+    text-align: end;
+    background-color: rgba(137, 43, 226, 0.83);
+}

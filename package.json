@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-coder2-diaz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-sass": "sass --watch scss/main.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loreta1976/proyecto-git-33035.git"
+  },
+  "author": "Lorena Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Loreta1976/proyecto-git-33035/issues"
+  },
+  "homepage": "https://github.com/Loreta1976/proyecto-git-33035#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}

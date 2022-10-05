@@ -1,0 +1,33 @@
+@media (min-width:768px) {
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        flex-direction: row;
+        gap: 30px;
+
+    }
+}
+
+
+.caja {
+
+    width: 400px;
+    height: 500px;
+    background-color: #7ebfb9;
+    border: 4px solid black;
+    border-radius: 20px;
+font-family: better together script;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+margin-bottom: 30px;
+    
+
+}
+
+
+.h3 {
+    font-size: 8rem;
+}
