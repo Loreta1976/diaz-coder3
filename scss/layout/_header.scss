@@ -1,10 +1,28 @@
+.titulo-principal-jufe {
+    text-shadow: 3px 3px 3px #fcc1f4;
+    font-size: cover;
+    font-weight: bold;
+    font-style: oblique;
+    color: #7ebfb9;
+}
+
 .hero {
     height: 96vh;
-    background-image: url(/assets/img/taza-flores-celestes.jpg);
+    background-image: url(/assets/cupcake/cake-bandeja-cristal.png);
     background-position: center;
     background-repeat: n;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.h3-index {
+
+    font-size: 2.5rem;
+}
+
+.w-25 {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
 }

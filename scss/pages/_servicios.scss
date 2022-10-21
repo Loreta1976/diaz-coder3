@@ -1,27 +1,47 @@
 .servicios {
 
-  font-size: 3rem;
+  font-size: 2rem;
   align-items: center;
-  text-align: center;  
+  text-align: center;
   background-color: #7ebfb9;
   border-radius: 20px;
-  margin: 4rem;
+  margin: 2rem;
 }
+
 .table {
 
-margin-top: 20px;
-padding-top: 20px;
-background-color: aqua;
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #fcc1f4a2;
+  border-collapse: collapse;
+  border: 100px solid rgba(128, 0, 128, 0.285);
 
-/* copiado de pagina 
+}
 
-box-sizing: border-box;
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(12, 1fr);
-  margin: 0 auto;
-  max-width: 70rem;
-  width: 100%;
+@media (min-width:768px) {
 
-*/ 
+  .servicios {
+
+    font-size: 4rem;
+    align-items: center;
+    text-align: center;
+    background-color: #7ebfb9c7;
+    border-radius: 20px;
+    margin: 4rem;
+    padding: 30px;
+  }
+
+  .contenedor-opciones {
+
+    display: flex;
+    justify-content: space-around;
+    font-size: 4rem;
+    align-items: center;
+    text-align: center;
+    background-color: #7ebfb9a2;
+    border-radius: 50px;
+    margin: 4rem;
+    padding: 30px;
+  }
+
 }

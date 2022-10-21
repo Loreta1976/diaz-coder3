@@ -5,15 +5,16 @@
     gap: 15px;
     align-items: center;
     flex-direction: column;
-    margin: auto;
+
     background-color: #b074a8;
-    
+
 }
 
 .titulo-nosotros {
     font-size: 3rem;
-align-items: center;
-text-align: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: rgba(255, 255, 255, 0);
 }
 
 .imagen__cupchoco {
@@ -22,7 +23,7 @@ text-align: center;
     border-radius: 20px;
     justify-content: center;
     gap: 20px;
-    
+
 }
 
 .imagen__oreo {
@@ -52,15 +53,67 @@ text-align: center;
 @media (min-width: 768px) {
 
     .contenedor-nosotros {
-        display: grid;
-grid-template-columns: repeat(2,45%);
-grid-template-rows: 45 vh repeat(2,45vh);
-justify-content: center;
-background-color: aqua;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 10px;
+        background-color: rgba(255, 255, 255, 0);
     }
 
 
+    .cuadrilla1 {
+        display: flex;
+        flex-direction: row;
+        width: 650px;
+        height: 500px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+        background-color: #fcc1f4;
+
+    }
+
+    .cuadrilla2 {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        width: 650px;
+        height: 500px;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+        background-color: #7ebfb9;
+
+    }
+
+    .cuadrilla3 {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        width: 650px;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        background-color: #7ebfb9;
+    }
+
+    .cuadrilla4 {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        width: 650px;
+        height: 500px;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+        background-color: #fcc1f4;
+    }
 
 }
-
-

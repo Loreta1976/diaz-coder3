@@ -13,22 +13,24 @@
 }
 
 header {
-.header1 {
+    .header1 {
 
-    font-size: 3rem;
-    border-color: red;
-    padding: 15px;
-   
+        font-size: 3rem;
+        border-color: red;
+        padding: 15px;
+
+    }
 }
-}
+
 .redes-sociales {
 
     padding: 50px;
-    background-color: blueviolet;
-    width: 98vw;
+    background-color: #b074a8d1;
+    width: 97vw;
     text-align: center;
 
 }
+
 @media (min-width: 768px) {
     .main-contacto {
 
@@ -44,8 +46,10 @@ header {
         padding: 20px;
 
 
+
     }
 }
+
 .card {
 
     background-color: aquamarine;
@@ -54,8 +58,26 @@ header {
 
 }
 
+/*
 .boton-servicio {
 
     text-align: end;
     background-color: rgba(137, 43, 226, 0.83);
+}
+*/
+.w-50 {
+    border-radius: 4rem;
+    transform: translate(45px);
+
+
+
+}
+
+.w-75 {
+    border-radius: 2rem
+}
+
+.contenedor-derechos {
+    background-color: aqua;
+
 }

@@ -15,4 +15,7 @@
 @import "./pages/productos";
 @import "./pages/servicios";
 
-
+body {
+    background-image: url(../assets/fondo-web/fondo\ pag\ web.png);
+    background-size: cover;
+}
